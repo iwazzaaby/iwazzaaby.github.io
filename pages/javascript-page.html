@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>javascript-exercise2</title>
+</head>
+<body>
+  <h1> Welcome to my Site</h1>
+  <hr>
+  <p class="first-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  <hr>
+  <p class="second-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <hr>
+  <p id="third-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h3> This is the end of page </h3>
+
+  <script type="text/javascript">
+
+  // console.log(document.querySelector("p"));
+  // console.log(document.querySelector("h1"));
+  // console.log(document.querySelector("span"));
+
+  // selecting an element on the webpage and display it on the console
+  console.log(document.querySelector("span"));
+  // selecting an element on the webpage and display it on the console and then change the content of it.
+  console.log(document.querySelector("p").textContent = "This is where the first paragraph used to be!!");
+  console.log(document.querySelector(".second-paragraph").textContent = "This is where the second paragraph used to be!!");
+  console.log(document.querySelector("#third-paragraph").textContent = "This is where the third paragraph used to be!!");
+
+
+
+  </script>
+</body>
+</html>

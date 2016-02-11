@@ -1,0 +1,14 @@
+body{
+  background-color:dodgerblue;
+}
+
+h1{
+  text-align:center;
+}
+
+.container{
+  background-color:white;
+  width:600px;
+  /*centering trick*/
+  margin:0 auto;
+}

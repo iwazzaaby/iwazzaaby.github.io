@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>javascript-exercise2</title>
+</head>
+<body>
+  <div id="greeting"></div>
+  <p>It is very nice to have someone from <span id="homeTown"></span> like yourself to visit our website. Thank you!</p>
+
+  <script type="text/javascript">
+
+  alert('hello')
+  var userName = prompt("Welcome, please enter your name: ");
+  var welcomeMsg = "Welcome to my website " + userName;
+  var homeTown = prompt('Enter your hometown please: ');
+
+  document.querySelector('#greeting').textContent = welcomeMsg;
+  document.querySelector('#homeTown').textContent = homeTown;
+
+  </script>
+</body>
+</html>
