@@ -21,6 +21,11 @@ h6 {
     font-weight: 700;
 }
 
+.rps-image{
+  position: relative;
+  top: auto;
+}
+
 .topnav {
     font-size: 14px;
 }
