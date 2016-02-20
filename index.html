@@ -173,37 +173,47 @@
       <!-- <img src="https://s3.amazonaws.com/codecademy-blog/assets/da840950.jpg" /> -->
       <h2>About Me</h2>
       <hr>
+
       <p>I'm an artistic and professional web developer who is ready to help you with creating beautiful and responsive websites. I am familiar with HTML, CSS, Bootstrap, javascript, and jQuery.</p>
-      <ul>
-        <li><h4 style="color:blue">Interests</h4>
+      <!-- ROW Container -->
+      <div class="row">
+        <div class="col-lg-5 col-sm-6">
           <ul>
-            <li>Learning a new language</li>
-            <li>Outdoor activities such as hiking,camping, and enjoying nature beauties</li>
-            <li>Coding and fixing any electronic gadgets especially phones</li>
+            <li><h4 style="color:blue">Interests</h4>
+              <ul>
+                <li>Learning a new language</li>
+                <li>Outdoor activities such as hiking,camping, and enjoying nature beauties</li>
+                <li>Coding and fixing any electronic gadgets especially phones</li>
+              </ul>
+            </li>
+            <li><h4 style="color:blue">Jobs</h4>
+              <ol>
+                <li>Dairy Deli Manager @ HOWS Markets LLC in Pasadena</li>
+                <li>Data Analyst @ HOWS Markets LLC in Pasadena</li>
+                <li>Cashier and Courtesy Clerk @ HOWS Markets LLC in Pasadena</li>
+              </ol>
+            </li>
+            <li><h4 style="color:blue">Where I Went to School</h4>
+              <ol>
+                <li>SMU N Maos, Cilacap, Indonesia (Sr. High School)</li>
+                <li>Santa Ana College, Santa Ana, California (Associate Degree in Computer Science)</li>
+                <li style="font-size:18px">BeachCoders Academy, El Segundo, California (Current)</li>
+              </ol>
+            </li>
+            <!-- new commit -->
+            <li><h4 style="color:blue">Favorite Quotes</h4>
+              <ul>
+                <li>"If at first you don't succeed, climb a giant building."</li>
+                <li>"Be content to be thought foolish and stupid if you want to improve."</li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li><h4 style="color:blue">Jobs</h4>
-          <ol>
-            <li>Dairy Deli Manager @ HOWS Markets LLC in Pasadena</li>
-            <li>Data Analyst @ HOWS Markets LLC in Pasadena</li>
-            <li>Cashier and Courtesy Clerk @ HOWS Markets LLC in Pasadena</li>
-          </ol>
-        </li>
-        <li><h4 style="color:blue">Where I Went to School</h4>
-          <ol>
-            <li>SMU N Maos, Cilacap, Indonesia (Sr. High School)</li>
-            <li>Santa Ana College, Santa Ana, California (Associate Degree in Computer Science)</li>
-            <li style="font-size:18px">BeachCoders Academy, El Segundo, California (Current)</li>
-          </ol>
-        </li>
-        <!-- new commit -->
-        <li><h4 style="color:blue">Favorite Quotes</h4>
-          <ul>
-            <li>"If at first you don't succeed, climb a giant building."</li>
-            <li>"Be content to be thought foolish and stupid if you want to improve."</li>
-          </ul>
-        </li>
-      </ul>
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          <img class="img-responsive" src="img/mypic.jpg" alt="">
+        </div>
+      </div>
+      <!-- End ROW  -->
       <hr>
 
       <div class="row">
@@ -266,8 +276,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/parallax.js"></script>
   <script type="text/javascript">
-    $('.intro-header').parallax({imageSrc:'img/intro-bg.jpg'});
-    $('.banner').parallax({imageSrc:'img/banner-bg.jpg'});
+  $('.intro-header').parallax({imageSrc:'img/intro-bg.jpg'});
+  $('.banner').parallax({imageSrc:'img/banner-bg.jpg'});
   </script>
 
 </body>
